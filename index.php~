@@ -8,7 +8,7 @@
         
 
 
-echo "<h1> Ceci est mon dexieme site web</h1>";
+echo "<h1> Ceci est mon premier site web</h1>";
 
 $result = $conn->query("select * from personne;");
 foreach ($result as $row) {
